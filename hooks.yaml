@@ -1,0 +1,6 @@
+-   id: check-sh-file-permission
+    name: Check *.sh permission
+    description: Check *.sh if have right permission, if not auto fix it.
+    entry: hooks/check_sh_file.sh
+    language: script
+    files: \.(sh)$
