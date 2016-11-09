@@ -3,10 +3,4 @@
     description: Check *.sh if have right permission, if not auto fix it.
     entry: hooks/check_sh_file.sh
     language: script
-    files: \.(sh)$
-
--   id: local-jshint
-    name: jshint
-    entry: jshint
-    language: system
-    files: \.js$
+    files: \.sh$
