@@ -4,3 +4,10 @@
     entry: hooks/check_sh_file.sh
     language: script
     files: \.sh$
+
+-   id: docker-pylint
+    name: docker pylint
+    description: run pylint in docker container
+    entry: hooks/docker-pylint.sh
+    language: script
+    files: \.py$
