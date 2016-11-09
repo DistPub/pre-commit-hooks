@@ -1,2 +1,2 @@
 #!/bin/bash
-docker exec -it ugoodspeed_web_1 pylint $@
+docker exec ugoodspeed_web_1 pylint $@
