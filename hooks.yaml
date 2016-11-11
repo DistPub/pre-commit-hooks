@@ -11,3 +11,10 @@
     entry: hooks/docker-pylint.sh
     language: script
     files: \.py$
+
+-   id: docker-eslint
+    name: docker eslint
+    description: run eslint in docker container
+    entry: hooks/docker-eslint.sh
+    language: script
+    files: \.es6$
