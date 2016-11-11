@@ -25,3 +25,10 @@
     entry: hooks/docker-es-import-sort.sh
     language: script
     files: \.es6$
+
+-   id: docker-stylelint
+    name: docker stylelint
+    description: run stylelint in docker container
+    entry: hooks/docker-stylelint.sh
+    language: script
+    files: \.scss$
