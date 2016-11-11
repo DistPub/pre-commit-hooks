@@ -18,3 +18,10 @@
     entry: hooks/docker-eslint.sh
     language: script
     files: \.es6$
+
+-   id: docker-es-import-sort
+    name: docker es import sort
+    description: run es import sort in docker container
+    entry: hooks/docker-es-import-sort.sh
+    language: script
+    files: \.es6$
