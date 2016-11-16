@@ -32,3 +32,17 @@
     entry: hooks/docker-stylelint.sh
     language: script
     files: \.scss$
+
+-   id: docker-isort
+    name: docker isort
+    description: run isort in docker container
+    entry: hooks/docker-isort.sh
+    language: script
+    files: \.py$
+
+-   id: docker-yaml
+    name: docker yaml
+    description: run yaml checker in docker container
+    entry: hooks/docker-yaml.sh
+    language: script
+    files: \.(yaml|yml|eyaml)$

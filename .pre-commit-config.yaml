@@ -2,7 +2,3 @@
     sha: 203e206977fc58a28d469aaa3a17ba63ae209285
     hooks:
     -   id: check-sh-file-permission
--   repo: git://github.com/pre-commit/pre-commit-hooks
-    sha: 4ef03c4223ad322c7adaa6c6c0efb26b57df3b71
-    hooks:
-    -   id: check-yaml
